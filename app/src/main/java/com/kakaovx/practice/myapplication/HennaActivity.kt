@@ -12,5 +12,12 @@ class HennaActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_henna)
+        setClickEvent()
+    }
+
+    private fun setClickEvent() {
+        btn.setOnClickListener {
+            txt.text = getString(R.string.hello)
+        }
     }
 }
