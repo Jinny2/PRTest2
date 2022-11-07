@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">PR Test2</string>
     <string name="btn">버튼</string>
+    <string name="hello">안녕하세요</string>
 </resources>
