@@ -20,4 +20,5 @@ class HennaActivity : AppCompatActivity() {
             txt.text = getString(R.string.hello)
         }
     }
+
 }
